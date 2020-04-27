@@ -22,6 +22,6 @@ jobs:
       - name: Build Image
         run: docker build -t loneprovider .
       - name: Run Builded Image
-        run: docker run -d -p 3000:3000 -t loneprovider
+        run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: View Images
         run: docker ps
