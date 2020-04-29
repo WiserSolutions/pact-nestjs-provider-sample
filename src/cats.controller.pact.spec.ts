@@ -52,6 +52,9 @@ beforeEach(async ()=> {
         }).compile();
         catsController = await moduleRef.resolve(CatsController);
         catService = moduleRef.get<CatService>(CatService);
+        console.log(pactBrokerUrl);
+        console.log(pactBrokerPassword);
+        console.log(pactBrokerUsername);
   });
 
 
