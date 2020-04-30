@@ -28,4 +28,4 @@ jobs:
       - name: Run Builded Image
         run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
-        run: docker exec loneprovidercontainer PROVIDER_VERSION=$GITHUB_SHA npm test 
+        run: docker exec loneprovidercontainer npm test 
