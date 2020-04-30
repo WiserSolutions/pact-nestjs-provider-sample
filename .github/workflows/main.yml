@@ -26,4 +26,4 @@ jobs:
       - name: Run Builded Image
         run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
-        run: docker exec loneprovidercontainer PACT_BROKER_URL=$PACT_BROKER_URL PACT_BROKER_USERNAME=${{PACT_BROKER_USERNAME}} PACT_BROKER_PASSWORD=${{PACT_BROKER_PASSWORD}}  npm test 
+        run: docker exec loneprovidercontainer PACT_BROKER_URL=$PACT_BROKER_URL PACT_BROKER_USERNAM=${{PACT_BROKER_USERNAME}} PACT_BROKER_PASSWOR=${{PACT_BROKER_PASSWORD}}  npm test 
