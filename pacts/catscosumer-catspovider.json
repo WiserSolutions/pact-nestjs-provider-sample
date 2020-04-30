@@ -1,9 +1,9 @@
 {
   "consumer": {
-    "name": "catsCosumer"
+    "name": "catsConsumer"
   },
   "provider": {
-    "name": "catsPovider"
+    "name": "catsProvider"
   },
   "interactions": [
     {

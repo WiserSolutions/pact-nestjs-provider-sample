@@ -925,6 +925,18 @@
         "version": "2bcc0e8f89522f3ae4e28542a8b431893978ed2d69f1a4b550386144f705f706",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
+      "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
+        "version": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
+        "signature": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52"
+      },
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": {
+        "version": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50",
+        "signature": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50"
+      },
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": {
+        "version": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6",
+        "signature": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6"
+      },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
         "version": "71cc7da1ef9d96f44a214a43017535538b47988d4bc9dedbf7592d2f9fe10da9",
         "signature": "71cc7da1ef9d96f44a214a43017535538b47988d4bc9dedbf7592d2f9fe10da9"
@@ -1009,10 +1021,6 @@
         "version": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef",
         "signature": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef"
       },
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": {
-        "version": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50",
-        "signature": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50"
-      },
       "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": {
         "version": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5",
         "signature": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5"
@@ -1036,10 +1044,6 @@
       "../node_modules/@nestjs/core/nest-application.d.ts": {
         "version": "49e690498c2f120a39e03cd3d526f23f06963b51c48f84af94c4099a3fbb1358",
         "signature": "49e690498c2f120a39e03cd3d526f23f06963b51c48f84af94c4099a3fbb1358"
-      },
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": {
-        "version": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6",
-        "signature": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6"
       },
       "../node_modules/@nestjs/core/nest-factory.d.ts": {
         "version": "6f168d1a3ca37d9ab1b8559bdeab7e22a384df4a5828c01190614700fe20a8cb",
@@ -1069,41 +1073,33 @@
         "version": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
         "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d"
       },
-      "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      "../node_modules/@nestjs/testing/testing-module.d.ts": {
+        "version": "9800ae0045a9b02d04462e5e05f943b3073b58c1775489141c952ca584bdb39b",
+        "signature": "9800ae0045a9b02d04462e5e05f943b3073b58c1775489141c952ca584bdb39b"
       },
-      "../node_modules/@types/anymatch/index.d.ts": {
-        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
-        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76"
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": {
+        "version": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
+        "signature": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b"
       },
-      "../node_modules/@babel/types/lib/index.d.ts": {
-        "version": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739",
-        "signature": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739"
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": {
+        "version": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
+        "signature": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d"
       },
-      "../node_modules/@types/babel__generator/index.d.ts": {
-        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
-        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e"
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": {
+        "version": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
+        "signature": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6"
       },
-      "../node_modules/@types/babel__traverse/index.d.ts": {
-        "version": "1fd8e7bda08591c056a1782cc7be557735461ee93be737a27e6714979cad018b",
-        "signature": "1fd8e7bda08591c056a1782cc7be557735461ee93be737a27e6714979cad018b"
+      "../node_modules/@nestjs/testing/test.d.ts": {
+        "version": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
+        "signature": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737"
       },
-      "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "56dede90729ef85351f132d66e05510851211d627e2f2c6621475d4f7938f365",
-        "signature": "56dede90729ef85351f132d66e05510851211d627e2f2c6621475d4f7938f365"
+      "../node_modules/@nestjs/testing/index.d.ts": {
+        "version": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
+        "signature": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0"
       },
-      "../node_modules/@types/babel__template/index.d.ts": {
-        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
-        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
-      },
-      "../node_modules/@types/babel__core/index.d.ts": {
-        "version": "cb5df634c024fe13ea293f7aa2b27a9d02f9b3aece975c884485c617d7653e25",
-        "signature": "cb5df634c024fe13ea293f7aa2b27a9d02f9b3aece975c884485c617d7653e25"
-      },
-      "../node_modules/@types/bluebird/index.d.ts": {
-        "version": "ddb08ee4a362f4e532a00ef9667c6cf63630f150046e8ed8c242ce044da457e5",
-        "signature": "ddb08ee4a362f4e532a00ef9667c6cf63630f150046e8ed8c242ce044da457e5"
+      "../node_modules/@types/q/index.d.ts": {
+        "version": "c7c91039704e932854b427faea90220fcd7fd7d66824539055fc17ac0bb42b58",
+        "signature": "c7c91039704e932854b427faea90220fcd7fd7d66824539055fc17ac0bb42b58"
       },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "1236b98326630298e0b9cd30ccecd77560ac925140b753f1b1a0ffc6e7b51ad4",
@@ -1285,6 +1281,98 @@
         "version": "6e19418b881b57998d218487d41d85534c7fa5ab329bbc72afe571e7683d774a",
         "signature": "6e19418b881b57998d218487d41d85534c7fa5ab329bbc72afe571e7683d774a"
       },
+      "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts": {
+        "version": "14f1c4dde6f9fcb008eb849f3dfaa05c49cc444c104714dc51f6816d50234a99",
+        "signature": "14f1c4dde6f9fcb008eb849f3dfaa05c49cc444c104714dc51f6816d50234a99"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/message.d.ts": {
+        "version": "5350202f86243415c43d4b8325bbd7c1452e19c86a43d89a79e6b0a1aa019d6d",
+        "signature": "5350202f86243415c43d4b8325bbd7c1452e19c86a43d89a79e6b0a1aa019d6d"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts": {
+        "version": "17d1dd89cb0ca50fb891fadc350a639da3270505ccbda34858b81bec00f7801f",
+        "signature": "17d1dd89cb0ca50fb891fadc350a639da3270505ccbda34858b81bec00f7801f"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts": {
+        "version": "0a33f37360604997eadecf40f668f3c2c69ca41dc545ebfe3f2ced0724d4a62a",
+        "signature": "0a33f37360604997eadecf40f668f3c2c69ca41dc545ebfe3f2ced0724d4a62a"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts": {
+        "version": "0105ed185e74c01ad056c95c128f74fcc461850a523eedc78d2027a0bf94764a",
+        "signature": "0105ed185e74c01ad056c95c128f74fcc461850a523eedc78d2027a0bf94764a"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/spawn/spawn.d.ts": {
+        "version": "355901fb7d47958dee96582e5c14368d07a6daf316cbd8b2f2f73780a7351747",
+        "signature": "355901fb7d47958dee96582e5c14368d07a6daf316cbd8b2f2f73780a7351747"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/spawn/index.d.ts": {
+        "version": "6e46907b4f71b1949bd539ea0417cae75065bffa0b38a08f64543a0be3c43500",
+        "signature": "6e46907b4f71b1949bd539ea0417cae75065bffa0b38a08f64543a0be3c43500"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/service.d.ts": {
+        "version": "06f36e4687ed7ff036d3b88c1a327f82f4c2e80f555d29b607bc106518dd7aed",
+        "signature": "06f36e4687ed7ff036d3b88c1a327f82f4c2e80f555d29b607bc106518dd7aed"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/server.d.ts": {
+        "version": "cd3461b01f79a73ac7ba521965018be1316005c7a1fb99016a31046bc8354376",
+        "signature": "cd3461b01f79a73ac7ba521965018be1316005c7a1fb99016a31046bc8354376"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/stub.d.ts": {
+        "version": "660af062d1de0062647f879769a440af02d106846a97c00925488b8220246410",
+        "signature": "660af062d1de0062647f879769a440af02d106846a97c00925488b8220246410"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/logger.d.ts": {
+        "version": "e5ec710218b16830de3bafd9f8fb8a35437087350d9e8261937ebfc9a5f3506d",
+        "signature": "e5ec710218b16830de3bafd9f8fb8a35437087350d9e8261937ebfc9a5f3506d"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/pact.d.ts": {
+        "version": "bcb10b38feb05c84b5f66b594326f984a41bd119e3d304194040be0b7a661a71",
+        "signature": "bcb10b38feb05c84b5f66b594326f984a41bd119e3d304194040be0b7a661a71"
+      },
+      "../node_modules/@pact-foundation/pact-node/src/index.d.ts": {
+        "version": "e9f24e0aa69ac57dabae7b6744e15a4a83858e49150e88a45a29ad10d0174e05",
+        "signature": "e9f24e0aa69ac57dabae7b6744e15a4a83858e49150e88a45a29ad10d0174e05"
+      },
+      "../src/cats.controller.pact.test.ts": {
+        "version": "8a991079411fb79f4d1a4f8441efeb1e473df79a834dc5abe320fb9515e12fb4",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "../src/main.ts": {
+        "version": "4fbeba8e23fe55ab5a9bb060a7f1d51fe981ce2ab301f482561b6d95fa6d4c2c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "../node_modules/@types/anymatch/index.d.ts": {
+        "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
+        "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76"
+      },
+      "../node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739",
+        "signature": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739"
+      },
+      "../node_modules/@types/babel__generator/index.d.ts": {
+        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
+        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e"
+      },
+      "../node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "1fd8e7bda08591c056a1782cc7be557735461ee93be737a27e6714979cad018b",
+        "signature": "1fd8e7bda08591c056a1782cc7be557735461ee93be737a27e6714979cad018b"
+      },
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "56dede90729ef85351f132d66e05510851211d627e2f2c6621475d4f7938f365",
+        "signature": "56dede90729ef85351f132d66e05510851211d627e2f2c6621475d4f7938f365"
+      },
+      "../node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
+      },
+      "../node_modules/@types/babel__core/index.d.ts": {
+        "version": "cb5df634c024fe13ea293f7aa2b27a9d02f9b3aece975c884485c617d7653e25",
+        "signature": "cb5df634c024fe13ea293f7aa2b27a9d02f9b3aece975c884485c617d7653e25"
+      },
+      "../node_modules/@types/bluebird/index.d.ts": {
+        "version": "ddb08ee4a362f4e532a00ef9667c6cf63630f150046e8ed8c242ce044da457e5",
+        "signature": "ddb08ee4a362f4e532a00ef9667c6cf63630f150046e8ed8c242ce044da457e5"
+      },
       "../node_modules/@types/connect/index.d.ts": {
         "version": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16",
         "signature": "e6ffa74698f0a1d23e4223242ed7dcdb89d02bbbb063a1930e9f91d0385abe16"
@@ -1388,10 +1476,6 @@
       "../node_modules/@types/prettier/index.d.ts": {
         "version": "29651525db5579157e617c77e869af8bfdc1130f5d811c1f759ad35b7bafc8ef",
         "signature": "29651525db5579157e617c77e869af8bfdc1130f5d811c1f759ad35b7bafc8ef"
-      },
-      "../node_modules/@types/q/index.d.ts": {
-        "version": "c7c91039704e932854b427faea90220fcd7fd7d66824539055fc17ac0bb42b58",
-        "signature": "c7c91039704e932854b427faea90220fcd7fd7d66824539055fc17ac0bb42b58"
       },
       "../node_modules/@types/request/node_modules/form-data/index.d.ts": {
         "version": "e91ad231af87f864b3f07cd0e39b1cf6c133988156f087c1c3ccb0a5491c9115",
@@ -3314,6 +3398,26 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -3488,13 +3592,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
         "../node_modules/@nestjs/core/injector/container.d.ts",
@@ -3552,13 +3649,6 @@
         "../node_modules/@nestjs/core/application-config.d.ts",
         "../node_modules/@nestjs/core/injector/container.d.ts",
         "../node_modules/@nestjs/core/nest-application-context.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -3630,67 +3720,65 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/main.ts": [
+      "../node_modules/@nestjs/testing/testing-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
-        "../src/app.module.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/anymatch/index.d.ts": [
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@babel/types/lib/index.d.ts": [
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__generator/index.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__traverse/index.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/test.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/test.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__template/index.d.ts": [
-        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "../node_modules/@babel/types/lib/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/babel__core/index.d.ts": [
-        "../node_modules/@types/babel__generator/index.d.ts",
-        "../node_modules/@types/babel__traverse/index.d.ts",
-        "../node_modules/@types/babel__template/index.d.ts",
-        "../node_modules/@babel/types/lib/index.d.ts",
-        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/bluebird/index.d.ts": [
+      "../node_modules/@types/q/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -4056,6 +4144,199 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/message.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/message.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/spawn.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/index.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/spawn.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/service.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/index.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/server.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/stub.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/logger.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/pact.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/server.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/stub.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/message.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/logger.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/index.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/pact.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/server.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/stub.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/cats.controller.pact.test.ts": [
+        "../src/cats.controller.ts",
+        "../node_modules/rxjs/internal/scheduler/async.d.ts",
+        "../node_modules/@nestjs/testing/index.d.ts",
+        "../src/cat.ts",
+        "../src/cats.service.ts",
+        "../node_modules/@pact-foundation/pact-node/src/index.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/main.ts": [
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../src/app.module.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/anymatch/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@babel/types/lib/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@types/babel__traverse/index.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/bluebird/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@types/connect/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/ts3.2/index.d.ts",
@@ -4237,12 +4518,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../node_modules/@types/prettier/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/q/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6180,6 +6455,26 @@
         "../src/cat.ts",
         "../src/cats.service.ts"
       ],
+      "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -6354,13 +6649,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
         "../node_modules/@nestjs/core/injector/container.d.ts",
@@ -6418,13 +6706,6 @@
         "../node_modules/@nestjs/core/application-config.d.ts",
         "../node_modules/@nestjs/core/injector/container.d.ts",
         "../node_modules/@nestjs/core/nest-application-context.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6496,59 +6777,65 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/anymatch/index.d.ts": [
+      "../node_modules/@nestjs/testing/testing-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@babel/types/lib/index.d.ts": [
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__generator/index.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__traverse/index.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/test.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__template/index.d.ts": [
-        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@nestjs/testing/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/test.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/babel__core/index.d.ts": [
-        "../node_modules/@types/babel__generator/index.d.ts",
-        "../node_modules/@types/babel__traverse/index.d.ts",
-        "../node_modules/@types/babel__template/index.d.ts",
-        "../node_modules/@babel/types/lib/index.d.ts",
-        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/bluebird/index.d.ts": [
+      "../node_modules/@types/q/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6914,6 +7201,178 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/message.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/message.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/spawn.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/spawn/index.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/spawn/arguments.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/spawn.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/service.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/spawn/index.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/server.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/stub.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/logger.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/pact.d.ts": [
+        "../node_modules/@types/q/index.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/server.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/stub.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/message.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/logger.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/service.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@pact-foundation/pact-node/src/index.d.ts": [
+        "../node_modules/@pact-foundation/pact-node/src/pact.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/verifier.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/server.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/publisher.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/stub.d.ts",
+        "../node_modules/@pact-foundation/pact-node/src/can-deploy.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/anymatch/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@babel/types/lib/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@types/babel__traverse/index.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/bluebird/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@types/connect/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/ts3.2/index.d.ts",
@@ -7095,12 +7554,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../node_modules/@types/prettier/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/q/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",

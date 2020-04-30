@@ -30,11 +30,12 @@ describe('Pact Verification', () => {
     pactBrokerUrl: pactBrokerUrl,
     pactBrokerUsername: pactBrokerUsername,
     pactBrokerPassword: pactBrokerPassword,
-    provider: 'catsPovider',
+    provider: 'catsProvider',
     enablePending: true,
+    verbose:true,
     publishVerificationResult: true,
     providerVersion:providerVersion,
-    tags: ['prod', 'test'],
+    consumerVersionTag: ['prod', 'test'],
     stateHandlers:{
       'I have a single cat': ()=>{
         return Promise.resolve(catExample);
