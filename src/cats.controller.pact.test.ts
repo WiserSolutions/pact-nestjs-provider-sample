@@ -14,6 +14,7 @@ describe('Pact Verification', () => {
   const pactBrokerUrl = process.env.PACT_BROKER_URL || 'http://localhost:8080';
   const pactBrokerUsername = process.env.PACT_BROKER_USERNAME || 'pact_workshop';
   const pactBrokerPassword = process.env.PACT_BROKER_PASSWORD || 'pact_workshop';
+  const providerVersion = process.env.PROVIDER_VERSION || '1.0.0';
 
 
   const catExample: Cat = {
@@ -32,7 +33,7 @@ describe('Pact Verification', () => {
     provider: 'catsPovider',
     enablePending: true,
     publishVerificationResult: true,
-    providerVersion:'1.0.0',
+    providerVersion:providerVersion,
     tags: ['prod', 'test'],
     stateHandlers:{
       'I have a single cat': ()=>{

@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
+      - name: confirm Variables
+        run: echo Hello world ${{secrets.pactBrokerUsername}} $PACT_BROKER_URL $GITHUB_SHA
       - name: Install & Tests
         run: 
           npm install
@@ -26,4 +28,4 @@ jobs:
       - name: Run Builded Image
         run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
-        run: docker exec loneprovidercontainer PACT_BROKER_URL=$PACT_BROKER_URL PACT_BROKER_USERNAM=${{PACT_BROKER_USERNAME}} PACT_BROKER_PASSWOR=${{PACT_BROKER_PASSWORD}}  npm test 
+        run: docker exec loneprovidercontainer PROVIDER_VERSION=$GITHUB_SHA PACT_BROKER_URL=$PACT_BROKER_URL PACT_BROKER_USERNAME=${{secrets.PACT_BROKER_USERNAME}} PACT_BROKER_PASSWORD=${{secrets.PACT_BROKER_PASSWORD}}  npm test 
