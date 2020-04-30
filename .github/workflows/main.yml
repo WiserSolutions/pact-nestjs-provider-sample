@@ -1,4 +1,3 @@
-
 name: NestProvider CI/CD
 on:
   push:
@@ -10,6 +9,9 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
+    env:
+        PACT_BROKER_URL: https://pact-broker.int.k8s.getmobee.com/
+        PACT_MOCK_URL: http://localhost:3500 
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -24,4 +26,4 @@ jobs:
       - name: Run Builded Image
         run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
-        run: docker exec loneprovidercontainer npm test 
+        run: docker exec loneprovidercontainer PACT_BROKER_URL=$PACT_BROKER_URL PACT_BROKER_USERNAME=${{PACT_BROKER_USERNAME}} PACT_BROKER_PASSWORD=${{PACT_BROKER_PASSWORD}}  npm test 
