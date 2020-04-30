@@ -28,4 +28,4 @@ jobs:
       - name: Run Builded Image
         run: docker run -d -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
-        run: docker exec loneprovidercontainer npm run test:pact 
+        run: docker exec loneprovidercontainer bash pact-verify.sh $GITHUB_SHA $PACT_BROKER_URL ${{secrets.PACT_BROKER_USERNAME}} ${{secrets.PACT_BROKER_PASSWORD}} 
