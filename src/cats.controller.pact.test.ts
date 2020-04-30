@@ -24,7 +24,7 @@ describe('Pact Verification', () => {
   };
 
   const providerBrokerOpts = {
-    logLevel: "debug",
+    logLevel: "trace",
     providerBaseUrl: "http://localhost:3000",
     pactFilesOrDirs: ['./pacts/'],
     pactBrokerUrl: pactBrokerUrl,
@@ -56,6 +56,7 @@ beforeEach(async ()=> {
         console.log(pactBrokerUrl);
         console.log(pactBrokerPassword);
         console.log(pactBrokerUsername);
+        console.log(providerVersion);
   });
 
 
