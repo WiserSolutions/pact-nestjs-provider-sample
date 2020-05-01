@@ -64,7 +64,7 @@ beforeEach(async ()=> {
   describe('verify the provider', () => {
     it('should verify the provider', async () => {
       return new Verifier(providerBrokerOpts).verify().finally(() => {
-        console.log('verification ran')
+        console.log('Verification Ran')
       });
     });
   });
