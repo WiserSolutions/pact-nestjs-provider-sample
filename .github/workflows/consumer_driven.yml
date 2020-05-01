@@ -15,10 +15,6 @@ jobs:
           node-version: '12.x'
       - name: confirm Variables
         run: echo Hello world ${{secrets.pactBrokerUsername}} $PACT_BROKER_URL $GITHUB_SHA
-      - name: Install & Tests
-        run: 
-          npm install
-          npm test
       - name: Build Image
         run: docker build -t loneprovider .
       - name: Run Builded Image
