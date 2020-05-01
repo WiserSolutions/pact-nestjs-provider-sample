@@ -1,7 +1,7 @@
 name: ConsumerTriggered CI
 on:
   repository_dispatch:
-    types: [pact]
+    types: [contract_content_changed]
 jobs:
   ci:
     runs-on: ubuntu-latest
