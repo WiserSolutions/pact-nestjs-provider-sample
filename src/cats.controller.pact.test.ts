@@ -15,6 +15,10 @@ describe('Pact Verification', () => {
   const pactBrokerUsername = process.env.PACT_BROKER_USERNAME || 'pact_workshop';
   const pactBrokerPassword = process.env.PACT_BROKER_PASSWORD || 'pact_workshop';
   const providerVersion = process.env.PROVIDER_VERSION || '1.0.0';
+  let publishVerification = false;
+  if(process.env.PUBLISH_VERIFICATION ){
+    publishVerification = true;
+  }
 
 
   const catExample: Cat = {
@@ -33,7 +37,7 @@ describe('Pact Verification', () => {
     provider: 'catsProvider',
     enablePending: true,
     verbose:true,
-    publishVerificationResult: true,
+    publishVerificationResult: publishVerification,
     providerVersion:providerVersion,
     consumerVersionTag: ['prod', 'test'],
     stateHandlers:{

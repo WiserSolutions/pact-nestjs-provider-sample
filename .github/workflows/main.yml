@@ -26,6 +26,6 @@ jobs:
       - name: Build Image
         run: docker build -t loneprovider .
       - name: Run Builded Image
-        run: docker run -d --env PROVIDER_VERSION=$GITHUB_SHA --env PACT_BROKER_URL=$PACT_BROKER_URL --env PACT_BROKER_USERNAME=${{secrets.PACT_BROKER_USERNAME}} --env PACT_BROKER_PASSWORD=${{secrets.PACT_BROKER_PASSWORD}}  -p 3000:3000 --name loneprovidercontainer -t loneprovider
+        run: docker run -d --env PROVIDER_VERSION=$GITHUB_SHA --env PACT_BROKER_URL=$PACT_BROKER_URL --env PACT_BROKER_USERNAME=${{secrets.PACT_BROKER_USERNAME}} --env PUBLISH_VERIFICATION=true --env PACT_BROKER_PASSWORD=${{secrets.PACT_BROKER_PASSWORD}}  -p 3000:3000 --name loneprovidercontainer -t loneprovider
       - name: Run Provider test
         run: docker exec loneprovidercontainer npm run test:pact 
