@@ -18,7 +18,7 @@ describe('Pact Verification', () => {
     };
     const providerBrokerOpts = {
         logLevel: "trace",
-        providerBaseUrl: "http://localhost:3000",
+        providerBaseUrl: "http://localhost:3050",
         pactFilesOrDirs: ['./pacts/'],
         pactBrokerUrl: pactBrokerUrl,
         pactBrokerUsername: pactBrokerUsername,

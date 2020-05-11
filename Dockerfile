@@ -9,6 +9,6 @@ RUN npm install
 COPY . .
 
 
-EXPOSE 3000
+EXPOSE 3050
 CMD ["start"]
 ENTRYPOINT [ "npm"]
