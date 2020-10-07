@@ -16,7 +16,7 @@ describe('Pact Verification', () => {
   const pactBrokerPassword = process.env.PACT_BROKER_PASSWORD || 'pact_workshop';
   const providerVersion = process.env.PROVIDER_VERSION || '1.0.0';
   const providerUrl = process.env.PROVIDER_URL || "http://localhost:3050";
-  let publishVerification = false;
+  let publishVerification = true;
   if(process.env.PUBLISH_VERIFICATION ){
     publishVerification = true;
   }
