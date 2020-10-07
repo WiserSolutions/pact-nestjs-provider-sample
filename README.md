@@ -58,7 +58,26 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+# test contract
+$ npm run test:pact
 ```
+
+## run with docker
+```bash
+# build the image
+ docker-compose up  
+
+# list the image
+docker ps
+
+#Run the test inside the provider container
+$ docker exec -it <provider_container_id> npm run test:pact
+```
+
+## Notes:
+
+the broker must have the contract 
+
 
 ## Support
 

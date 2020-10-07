@@ -16,7 +16,7 @@ describe('Pact Verification', () => {
   const pactBrokerPassword = process.env.PACT_BROKER_PASSWORD || 'pact_workshop';
   const providerVersion = process.env.PROVIDER_VERSION || '1.0.0';
   const providerUrl = process.env.PROVIDER_URL || "http://localhost:3050";
-  let publishVerification = false;
+  let publishVerification = true;
   if(process.env.PUBLISH_VERIFICATION ){
     publishVerification = true;
   }
@@ -25,7 +25,8 @@ describe('Pact Verification', () => {
   const catExample: Cat = {
     'name': 'cat',
     'age': 12,
-    'breed': 'angora'
+    'breed': 'angora',
+    'color': 'orange'
   };
 
   const providerBrokerOpts = {
@@ -42,10 +43,10 @@ describe('Pact Verification', () => {
     providerVersion:providerVersion,
     consumerVersionTag: ['prod', 'test'],
     stateHandlers:{
-      'I have a single cat': ()=>{
+      'I have a single cat with color': ()=>{
         return Promise.resolve(catExample);
       },
-      'I have a single cat object': ()=>{
+      'I have a single cat object with color': ()=>{
         return Promise.resolve(catExample);
       }
     }
