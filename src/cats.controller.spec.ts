@@ -23,7 +23,8 @@ describe ('Cat Controller test', ()=> {
             const result: Cat = {
               'name': 'cat',
               'age': 12,
-              'breed': 'angora'
+              'breed': 'angora',
+              'color': 'orange'
             };
             jest.spyOn(catsController, 'getCat').mockImplementation(()=> result);
             expect (catsController.getCat()).toMatchObject(result);

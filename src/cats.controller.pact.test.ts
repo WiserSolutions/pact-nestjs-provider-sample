@@ -25,7 +25,8 @@ describe('Pact Verification', () => {
   const catExample: Cat = {
     'name': 'cat',
     'age': 12,
-    'breed': 'angora'
+    'breed': 'angora',
+    'color': 'orange'
   };
 
   const providerBrokerOpts = {
@@ -42,10 +43,10 @@ describe('Pact Verification', () => {
     providerVersion:providerVersion,
     consumerVersionTag: ['prod', 'test'],
     stateHandlers:{
-      'I have a single cat': ()=>{
+      'I have a single cat with color': ()=>{
         return Promise.resolve(catExample);
       },
-      'I have a single cat object': ()=>{
+      'I have a single cat object with color': ()=>{
         return Promise.resolve(catExample);
       }
     }
