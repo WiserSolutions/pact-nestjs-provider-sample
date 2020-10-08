@@ -11,28 +11,35 @@ describe('Pact Verification', () => {
     const pactBrokerUsername = process.env.PACT_BROKER_USERNAME || 'pact_workshop';
     const pactBrokerPassword = process.env.PACT_BROKER_PASSWORD || 'pact_workshop';
     const providerVersion = process.env.PROVIDER_VERSION || '1.0.0';
+    const providerUrl = process.env.PROVIDER_URL || "http://localhost:3050";
+    let publishVerification = true;
+    if (process.env.PUBLISH_VERIFICATION) {
+        publishVerification = true;
+    }
     const catExample = {
         'name': 'cat',
         'age': 12,
-        'breed': 'angora'
+        'breed': 'angora',
+        'color': 'orange'
     };
     const providerBrokerOpts = {
         logLevel: "trace",
-        providerBaseUrl: "http://localhost:3050",
+        providerBaseUrl: providerUrl,
         pactFilesOrDirs: ['./pacts/'],
         pactBrokerUrl: pactBrokerUrl,
         pactBrokerUsername: pactBrokerUsername,
         pactBrokerPassword: pactBrokerPassword,
         provider: 'catsProvider',
         enablePending: true,
-        publishVerificationResult: true,
+        verbose: true,
+        publishVerificationResult: publishVerification,
         providerVersion: providerVersion,
-        tags: ['prod', 'test'],
+        consumerVersionTag: ['prod', 'test'],
         stateHandlers: {
-            'I have a single cat': () => {
+            'I have a single cat with color': () => {
                 return Promise.resolve(catExample);
             },
-            'I have a single cat object': () => {
+            'I have a single cat object with color': () => {
                 return Promise.resolve(catExample);
             }
         }
@@ -52,7 +59,7 @@ describe('Pact Verification', () => {
     describe('verify the provider', () => {
         it('should verify the provider', async () => {
             return new pact_node_1.Verifier(providerBrokerOpts).verify().finally(() => {
-                console.log('verification ran');
+                console.log('Verification Ran');
             });
         });
     });
