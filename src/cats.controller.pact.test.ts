@@ -52,7 +52,6 @@ describe('Pact Verification', () => {
     }
   };
 
-
 beforeEach(async ()=> { 
       const moduleRef: TestingModule = await Test.createTestingModule({
           controllers: [CatsController],
